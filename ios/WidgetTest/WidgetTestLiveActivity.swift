@@ -1,15 +1,15 @@
 //
-//  testingLiveActivity.swift
-//  testing
+//  WidgetTestLiveActivity.swift
+//  WidgetTest
 //
-//  Created by Moch. Fadli Rahmadi on 13/01/23.
+//  Created by Moch. Fadli Rahmadi on 14/01/23.
 //
 
 import ActivityKit
 import WidgetKit
 import SwiftUI
 
-struct testingAttributes: ActivityAttributes {
+struct WidgetTestAttributes: ActivityAttributes {
     public struct ContentState: Codable, Hashable {
         // Dynamic stateful properties about your activity go here!
         var value: Int
@@ -19,9 +19,9 @@ struct testingAttributes: ActivityAttributes {
     var name: String
 }
 
-struct testingLiveActivity: Widget {
+struct WidgetTestLiveActivity: Widget {
     var body: some WidgetConfiguration {
-        ActivityConfiguration(for: testingAttributes.self) { context in
+        ActivityConfiguration(for: WidgetTestAttributes.self) { context in
             // Lock screen/banner UI goes here
             VStack {
                 Text("Hello")

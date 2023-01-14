@@ -1,48 +1,14 @@
-import {StyleSheet, TextInput, View} from 'react-native';
-import React, {useState} from 'react';
-import SharedGroupPreferences from 'react-native-shared-group-preferences';
-
-const group = 'group.assignment';
+import {NavigationContainer} from '@react-navigation/native';
+import React from 'react';
+import linking from './src/config/linking';
+import StackNavigation from './src/navigation/StackNavigation';
 
 const App = () => {
-  const [inputText, setInputText] = useState('');
-  const widgetData = {
-    inputText,
-  };
-
-  const submitText = async () => {
-    try {
-      await SharedGroupPreferences.setItem('widgetKey', widgetData, group);
-    } catch (error) {
-      console.log('error submitting data: ', error);
-    }
-  };
-
   return (
-    <View style={styles.container}>
-      <TextInput
-        style={styles.input}
-        onChangeText={input => setInputText(input)}
-        value={inputText}
-        returnKeyType="send"
-        onEndEditing={submitText}
-        placeholder="Enter text to display in the widget"
-      />
-    </View>
+    <NavigationContainer linking={linking}>
+      <StackNavigation />
+    </NavigationContainer>
   );
 };
 
 export default App;
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    paddingHorizontal: 24,
-    justifyContent: 'center',
-  },
-  input: {
-    width: '100%',
-    borderBottomWidth: 1,
-    fontSize: 18,
-  },
-});

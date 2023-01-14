@@ -12,15 +12,16 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		26AE3EA92971504C00A12935 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26AE3EA82971504C00A12935 /* WidgetKit.framework */; };
-		26AE3EAB2971504C00A12935 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26AE3EAA2971504C00A12935 /* SwiftUI.framework */; };
-		26AE3EAE2971504C00A12935 /* testingBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE3EAD2971504C00A12935 /* testingBundle.swift */; };
-		26AE3EB02971504C00A12935 /* testingLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE3EAF2971504C00A12935 /* testingLiveActivity.swift */; };
-		26AE3EB22971504C00A12935 /* testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE3EB12971504C00A12935 /* testing.swift */; };
-		26AE3EB52971505000A12935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26AE3EB42971505000A12935 /* Assets.xcassets */; };
-		26AE3EB72971505000A12935 /* testing.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 26AE3EB32971504C00A12935 /* testing.intentdefinition */; };
-		26AE3EB82971505000A12935 /* testing.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 26AE3EB32971504C00A12935 /* testing.intentdefinition */; };
-		26AE3EBB2971505000A12935 /* testingExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 26AE3EA72971504C00A12935 /* testingExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		26A6717729725705004A2439 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A6717629725705004A2439 /* File.swift */; };
+		26A6717E29725D48004A2439 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26AE3EA82971504C00A12935 /* WidgetKit.framework */; };
+		26A6717F29725D48004A2439 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26AE3EAA2971504C00A12935 /* SwiftUI.framework */; };
+		26A6718229725D48004A2439 /* WidgetTestBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A6718129725D48004A2439 /* WidgetTestBundle.swift */; };
+		26A6718429725D48004A2439 /* WidgetTestLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A6718329725D48004A2439 /* WidgetTestLiveActivity.swift */; };
+		26A6718629725D48004A2439 /* WidgetTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A6718529725D48004A2439 /* WidgetTest.swift */; };
+		26A6718929725D4A004A2439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26A6718829725D4A004A2439 /* Assets.xcassets */; };
+		26A6718B29725D4A004A2439 /* WidgetTest.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 26A6718729725D48004A2439 /* WidgetTest.intentdefinition */; };
+		26A6718C29725D4A004A2439 /* WidgetTest.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 26A6718729725D48004A2439 /* WidgetTest.intentdefinition */; };
+		26A6718F29725D4A004A2439 /* WidgetTestExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 26A6717D29725D48004A2439 /* WidgetTestExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		7699B88040F8A987B510C191 /* libPods-TakeHomeAssignment-TakeHomeAssignmentTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-TakeHomeAssignment-TakeHomeAssignmentTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -33,12 +34,12 @@
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
 			remoteInfo = TakeHomeAssignment;
 		};
-		26AE3EB92971505000A12935 /* PBXContainerItemProxy */ = {
+		26A6718D29725D4A004A2439 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 26AE3EA62971504C00A12935;
-			remoteInfo = testingExtension;
+			remoteGlobalIDString = 26A6717C29725D48004A2439;
+			remoteInfo = WidgetTestExtension;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -49,7 +50,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				26AE3EBB2971505000A12935 /* testingExtension.appex in Embed Foundation Extensions */,
+				26A6718F29725D4A004A2439 /* WidgetTestExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,15 +68,19 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TakeHomeAssignment/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TakeHomeAssignment/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-TakeHomeAssignment-TakeHomeAssignmentTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TakeHomeAssignment-TakeHomeAssignmentTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		26AE3EA72971504C00A12935 /* testingExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = testingExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		26A6717529725705004A2439 /* TakeHomeAssignment-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TakeHomeAssignment-Bridging-Header.h"; sourceTree = "<group>"; };
+		26A6717629725705004A2439 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		26A6717829725CA0004A2439 /* testingExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = testingExtension.entitlements; sourceTree = "<group>"; };
+		26A6717D29725D48004A2439 /* WidgetTestExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetTestExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		26A6718129725D48004A2439 /* WidgetTestBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetTestBundle.swift; sourceTree = "<group>"; };
+		26A6718329725D48004A2439 /* WidgetTestLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetTestLiveActivity.swift; sourceTree = "<group>"; };
+		26A6718529725D48004A2439 /* WidgetTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetTest.swift; sourceTree = "<group>"; };
+		26A6718729725D48004A2439 /* WidgetTest.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = WidgetTest.intentdefinition; sourceTree = "<group>"; };
+		26A6718829725D4A004A2439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26A6718A29725D4A004A2439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26A6719329725D64004A2439 /* WidgetTestExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WidgetTestExtension.entitlements; sourceTree = "<group>"; };
 		26AE3EA82971504C00A12935 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		26AE3EAA2971504C00A12935 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		26AE3EAD2971504C00A12935 /* testingBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testingBundle.swift; sourceTree = "<group>"; };
-		26AE3EAF2971504C00A12935 /* testingLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testingLiveActivity.swift; sourceTree = "<group>"; };
-		26AE3EB12971504C00A12935 /* testing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testing.swift; sourceTree = "<group>"; };
-		26AE3EB32971504C00A12935 /* testing.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = testing.intentdefinition; sourceTree = "<group>"; };
-		26AE3EB42971505000A12935 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		26AE3EB62971505000A12935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26AE3EC02971511600A12935 /* TakeHomeAssignment.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = TakeHomeAssignment.entitlements; path = TakeHomeAssignment/TakeHomeAssignment.entitlements; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-TakeHomeAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeHomeAssignment.debug.xcconfig"; path = "Target Support Files/Pods-TakeHomeAssignment/Pods-TakeHomeAssignment.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-TakeHomeAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeHomeAssignment.release.xcconfig"; path = "Target Support Files/Pods-TakeHomeAssignment/Pods-TakeHomeAssignment.release.xcconfig"; sourceTree = "<group>"; };
@@ -103,12 +108,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26AE3EA42971504C00A12935 /* Frameworks */ = {
+		26A6717A29725D48004A2439 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26AE3EAB2971504C00A12935 /* SwiftUI.framework in Frameworks */,
-				26AE3EA92971504C00A12935 /* WidgetKit.framework in Frameworks */,
+				26A6717F29725D48004A2439 /* SwiftUI.framework in Frameworks */,
+				26A6717E29725D48004A2439 /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,21 +147,23 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				26A6717629725705004A2439 /* File.swift */,
+				26A6717529725705004A2439 /* TakeHomeAssignment-Bridging-Header.h */,
 			);
 			name = TakeHomeAssignment;
 			sourceTree = "<group>";
 		};
-		26AE3EAC2971504C00A12935 /* testing */ = {
+		26A6718029725D48004A2439 /* WidgetTest */ = {
 			isa = PBXGroup;
 			children = (
-				26AE3EAD2971504C00A12935 /* testingBundle.swift */,
-				26AE3EAF2971504C00A12935 /* testingLiveActivity.swift */,
-				26AE3EB12971504C00A12935 /* testing.swift */,
-				26AE3EB32971504C00A12935 /* testing.intentdefinition */,
-				26AE3EB42971505000A12935 /* Assets.xcassets */,
-				26AE3EB62971505000A12935 /* Info.plist */,
+				26A6718129725D48004A2439 /* WidgetTestBundle.swift */,
+				26A6718329725D48004A2439 /* WidgetTestLiveActivity.swift */,
+				26A6718529725D48004A2439 /* WidgetTest.swift */,
+				26A6718729725D48004A2439 /* WidgetTest.intentdefinition */,
+				26A6718829725D4A004A2439 /* Assets.xcassets */,
+				26A6718A29725D4A004A2439 /* Info.plist */,
 			);
-			path = testing;
+			path = WidgetTest;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -181,10 +188,12 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				26A6719329725D64004A2439 /* WidgetTestExtension.entitlements */,
+				26A6717829725CA0004A2439 /* testingExtension.entitlements */,
 				13B07FAE1A68108700A75B9A /* TakeHomeAssignment */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* TakeHomeAssignmentTests */,
-				26AE3EAC2971504C00A12935 /* testing */,
+				26A6718029725D48004A2439 /* WidgetTest */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
@@ -199,7 +208,7 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* TakeHomeAssignment.app */,
 				00E356EE1AD99517003FC87E /* TakeHomeAssignmentTests.xctest */,
-				26AE3EA72971504C00A12935 /* testingExtension.appex */,
+				26A6717D29725D48004A2439 /* WidgetTestExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -256,28 +265,28 @@
 			buildRules = (
 			);
 			dependencies = (
-				26AE3EBA2971505000A12935 /* PBXTargetDependency */,
+				26A6718E29725D4A004A2439 /* PBXTargetDependency */,
 			);
 			name = TakeHomeAssignment;
 			productName = TakeHomeAssignment;
 			productReference = 13B07F961A680F5B00A75B9A /* TakeHomeAssignment.app */;
 			productType = "com.apple.product-type.application";
 		};
-		26AE3EA62971504C00A12935 /* testingExtension */ = {
+		26A6717C29725D48004A2439 /* WidgetTestExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26AE3EBF2971505000A12935 /* Build configuration list for PBXNativeTarget "testingExtension" */;
+			buildConfigurationList = 26A6719029725D4A004A2439 /* Build configuration list for PBXNativeTarget "WidgetTestExtension" */;
 			buildPhases = (
-				26AE3EA32971504C00A12935 /* Sources */,
-				26AE3EA42971504C00A12935 /* Frameworks */,
-				26AE3EA52971504C00A12935 /* Resources */,
+				26A6717929725D48004A2439 /* Sources */,
+				26A6717A29725D48004A2439 /* Frameworks */,
+				26A6717B29725D48004A2439 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = testingExtension;
-			productName = testingExtension;
-			productReference = 26AE3EA72971504C00A12935 /* testingExtension.appex */;
+			name = WidgetTestExtension;
+			productName = WidgetTestExtension;
+			productReference = 26A6717D29725D48004A2439 /* WidgetTestExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -294,9 +303,9 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1410;
 					};
-					26AE3EA62971504C00A12935 = {
+					26A6717C29725D48004A2439 = {
 						CreatedOnToolsVersion = 14.1;
 					};
 				};
@@ -316,7 +325,7 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* TakeHomeAssignment */,
 				00E356ED1AD99517003FC87E /* TakeHomeAssignmentTests */,
-				26AE3EA62971504C00A12935 /* testingExtension */,
+				26A6717C29725D48004A2439 /* WidgetTestExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -338,11 +347,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26AE3EA52971504C00A12935 /* Resources */ = {
+		26A6717B29725D48004A2439 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26AE3EB52971505000A12935 /* Assets.xcassets in Resources */,
+				26A6718929725D4A004A2439 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,20 +520,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26A6718C29725D4A004A2439 /* WidgetTest.intentdefinition in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
-				26AE3EB82971505000A12935 /* testing.intentdefinition in Sources */,
+				26A6717729725705004A2439 /* File.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26AE3EA32971504C00A12935 /* Sources */ = {
+		26A6717929725D48004A2439 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26AE3EAE2971504C00A12935 /* testingBundle.swift in Sources */,
-				26AE3EB02971504C00A12935 /* testingLiveActivity.swift in Sources */,
-				26AE3EB22971504C00A12935 /* testing.swift in Sources */,
-				26AE3EB72971505000A12935 /* testing.intentdefinition in Sources */,
+				26A6718B29725D4A004A2439 /* WidgetTest.intentdefinition in Sources */,
+				26A6718429725D48004A2439 /* WidgetTestLiveActivity.swift in Sources */,
+				26A6718629725D48004A2439 /* WidgetTest.swift in Sources */,
+				26A6718229725D48004A2439 /* WidgetTestBundle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,10 +546,10 @@
 			target = 13B07F861A680F5B00A75B9A /* TakeHomeAssignment */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
-		26AE3EBA2971505000A12935 /* PBXTargetDependency */ = {
+		26A6718E29725D4A004A2439 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 26AE3EA62971504C00A12935 /* testingExtension */;
-			targetProxy = 26AE3EB92971505000A12935 /* PBXContainerItemProxy */;
+			target = 26A6717C29725D48004A2439 /* WidgetTestExtension */;
+			targetProxy = 26A6718D29725D4A004A2439 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -548,6 +558,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-TakeHomeAssignment-TakeHomeAssignmentTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -575,6 +586,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-TakeHomeAssignment-TakeHomeAssignmentTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = TakeHomeAssignmentTests/Info.plist;
@@ -609,9 +621,53 @@
 				DEVELOPMENT_TEAM = 5R4477QN74;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = TakeHomeAssignment/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Synergy Assignment";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/lib/swift",
+					"$(inherited)",
+					"\"${DT_TOOLCHAIN_DIR}/usr/lib/swift-5.2/${PLATFORM_NAME}\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Flipper\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Flipper-Boost-iOSX\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Flipper-Fmt\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Flipper-Folly\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Flipper-PeerTalk\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Flipper-RSocket\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FlipperKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCT-Folly\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCTTypeSafety\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-Codegen\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-CoreModules\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTAnimation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTAppDelegate\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTBlob\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTLinking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTNetwork\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTSettings\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTText\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTVibration\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-hermes\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsi\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsiexecutor\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsinspector\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-logger\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-perflogger\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SocketRocket\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Yoga\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YogaKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/fmt\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/glog\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/libevent\"",
+					/usr/lib/swift,
 				);
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
@@ -619,9 +675,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TakeHomeAssignment;
 				PRODUCT_NAME = TakeHomeAssignment;
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "TakeHomeAssignment-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -641,9 +698,46 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5R4477QN74;
 				INFOPLIST_FILE = TakeHomeAssignment/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Synergy Assignment";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/lib/swift",
+					"$(inherited)",
+					"\"${DT_TOOLCHAIN_DIR}/usr/lib/swift-5.2/${PLATFORM_NAME}\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCT-Folly\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCTTypeSafety\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-Codegen\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-CoreModules\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTAnimation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTAppDelegate\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTBlob\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTLinking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTNetwork\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTSettings\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTText\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTVibration\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-hermes\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsi\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsiexecutor\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsinspector\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-logger\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-perflogger\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SocketRocket\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Yoga\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YogaKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/fmt\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/glog\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/libevent\"",
+					/usr/lib/swift,
 				);
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
@@ -651,15 +745,16 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TakeHomeAssignment;
 				PRODUCT_NAME = TakeHomeAssignment;
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "TakeHomeAssignment-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
-		26AE3EBD2971505000A12935 /* Debug */ = {
+		26A6719129725D4A004A2439 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -670,13 +765,16 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = WidgetTestExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 5R4477QN74;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = testing/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = testing;
+				INFOPLIST_FILE = WidgetTest/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WidgetTest;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -687,7 +785,7 @@
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.TakeHomeAssignment.testing;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TakeHomeAssignment.WidgetTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -698,7 +796,7 @@
 			};
 			name = Debug;
 		};
-		26AE3EBE2971505000A12935 /* Release */ = {
+		26A6719229725D4A004A2439 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -709,14 +807,17 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = WidgetTestExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5R4477QN74;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = testing/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = testing;
+				INFOPLIST_FILE = WidgetTest/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WidgetTest;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -726,7 +827,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.TakeHomeAssignment.testing;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TakeHomeAssignment.WidgetTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -895,11 +996,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		26AE3EBF2971505000A12935 /* Build configuration list for PBXNativeTarget "testingExtension" */ = {
+		26A6719029725D4A004A2439 /* Build configuration list for PBXNativeTarget "WidgetTestExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				26AE3EBD2971505000A12935 /* Debug */,
-				26AE3EBE2971505000A12935 /* Release */,
+				26A6719129725D4A004A2439 /* Debug */,
+				26A6719229725D4A004A2439 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
