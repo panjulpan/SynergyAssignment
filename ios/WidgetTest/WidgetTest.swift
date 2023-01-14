@@ -53,19 +53,63 @@ struct WidgetTestEntryView : View {
         case .systemMedium:
             HStack{
                 Link(destination: URL(string: "assignmentapp://page_one")!, label: {
+                  VStack(alignment: .center){
+                    Image("contact")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 50, height: 50, alignment: .trailing )
+                        .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                        .foregroundColor(Color.gray)
+                        .overlay(
+                            Circle().stroke(Color.black)
+                    )
                     Text("Page 1")
+                  }
                 })
                 Spacer()
                 Link(destination: URL(string: "assignmentapp://page_two")!, label: {
+                  VStack(alignment: .center){
+                    Image("contact")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 50, height: 50, alignment: .trailing )
+                        .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                        .foregroundColor(Color.gray)
+                        .overlay(
+                            Circle().stroke(Color.black)
+                    )
                     Text("Page 2")
+                  }
                 })
                 Spacer()
                 Link(destination: URL(string: "assignmentapp://page_three")!, label: {
+                  VStack(alignment: .center){
+                    Image("contact")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 50, height: 50, alignment: .trailing )
+                        .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                        .foregroundColor(Color.gray)
+                        .overlay(
+                            Circle().stroke(Color.black)
+                    )
                     Text("Page 3")
+                  }
                 })
                 Spacer()
                 Link(destination: URL(string: "assignmentapp://page_four")!, label: {
+                  VStack(alignment: .center){
+                    Image("contact")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 50, height: 50, alignment: .trailing )
+                        .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                        .foregroundColor(Color.gray)
+                        .overlay(
+                            Circle().stroke(Color.black)
+                    )
                     Text("Page 4")
+                  }
                 })
             }
             .padding()
