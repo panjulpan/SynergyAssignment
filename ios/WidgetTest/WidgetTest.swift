@@ -49,72 +49,58 @@ struct WidgetTestEntryView : View {
     var body: some View {
         switch family {
         case .systemSmall:
-            Text("Go to main screen") //.systemSmall widgets are one large tap area
+            Text("The Milkyway")
+              .foregroundColor(Color.white) //.systemSmall widgets are one large tap area
         case .systemMedium:
             HStack{
                 Link(destination: URL(string: "assignmentapp://page_one")!, label: {
                   VStack(alignment: .center){
-                    Image("contact")
+                    Image("mercury")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 50, height: 50, alignment: .trailing )
-                        .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
-                        .foregroundColor(Color.gray)
-                        .overlay(
-                            Circle().stroke(Color.black)
-                    )
-                    Text("Page 1")
+                    Text("Mercury")
+                      .foregroundColor(Color.white)
                   }
                 })
                 Spacer()
                 Link(destination: URL(string: "assignmentapp://page_two")!, label: {
                   VStack(alignment: .center){
-                    Image("contact")
+                    Image("mars")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 50, height: 50, alignment: .trailing )
-                        .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
-                        .foregroundColor(Color.gray)
-                        .overlay(
-                            Circle().stroke(Color.black)
-                    )
-                    Text("Page 2")
+                    Text("Mars")
+                      .foregroundColor(Color.white)
                   }
                 })
                 Spacer()
                 Link(destination: URL(string: "assignmentapp://page_three")!, label: {
                   VStack(alignment: .center){
-                    Image("contact")
+                    Image("jupiter")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 50, height: 50, alignment: .trailing )
-                        .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
-                        .foregroundColor(Color.gray)
-                        .overlay(
-                            Circle().stroke(Color.black)
-                    )
-                    Text("Page 3")
+                    Text("Jupiter")
+                      .foregroundColor(Color.white)
                   }
                 })
                 Spacer()
                 Link(destination: URL(string: "assignmentapp://page_four")!, label: {
                   VStack(alignment: .center){
-                    Image("contact")
+                    Image("uranus")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 50, height: 50, alignment: .trailing )
-                        .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
-                        .foregroundColor(Color.gray)
-                        .overlay(
-                            Circle().stroke(Color.black)
-                    )
-                    Text("Page 4")
+                    Text("Uranus")
+                      .foregroundColor(Color.white)
                   }
                 })
             }
             .padding()
         default:
-          Text("Large widget")
+          Text("The Galaxy")
+            .foregroundColor(Color.white)
         }
     }
 }
@@ -125,7 +111,13 @@ struct WidgetTest: Widget {
     var body: some WidgetConfiguration {
         IntentConfiguration(kind: kind, intent: ConfigurationIntent.self, provider: Provider()) { entry in
             WidgetTestEntryView(entry: entry)
+              .frame(maxWidth: .infinity, maxHeight: .infinity)
+              .edgesIgnoringSafeArea(.all)
+              .background(Image("background")
+                .resizable()
+                .scaledToFill())
         }
+        .supportedFamilies([.systemSmall, .systemMedium, .systemLarge])
         .configurationDisplayName("My Widget")
         .description("This is an example widget.")
     }
@@ -135,5 +127,8 @@ struct WidgetTest_Previews: PreviewProvider {
     static var previews: some View {
         WidgetTestEntryView(entry: SimpleEntry(date: Date(), configuration: ConfigurationIntent()))
             .previewContext(WidgetPreviewContext(family: .systemSmall))
+            // .frame(maxWidth: .infinity, maxHeight: .infinity)
+            // .edgesIgnoringSafeArea(.all)
+            // .background(Color.green)
     }
 }

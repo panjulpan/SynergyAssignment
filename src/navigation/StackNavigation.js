@@ -14,10 +14,10 @@ const StackNavigation = () => {
   return (
     <Stack.Navigator>
       <Stack.Screen name="Home" component={HomeScreen} />
-      <Stack.Screen name="Page 1" component={PageOneScreen} />
-      <Stack.Screen name="Page 2" component={PageTwoScreen} />
-      <Stack.Screen name="Page 3" component={PageThreeScreen} />
-      <Stack.Screen name="Page 4" component={PageFourScreen} />
+      <Stack.Screen name="Mercury" component={PageOneScreen} />
+      <Stack.Screen name="Mars" component={PageTwoScreen} />
+      <Stack.Screen name="Jupiter" component={PageThreeScreen} />
+      <Stack.Screen name="Uranus" component={PageFourScreen} />
     </Stack.Navigator>
   );
 };

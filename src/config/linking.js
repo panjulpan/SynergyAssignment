@@ -2,10 +2,10 @@ const linking = {
   prefixes: ['assignmentapp://'],
   config: {
     screens: {
-      'Page 1': 'page_one',
-      'Page 2': 'page_two',
-      'Page 3': 'page_three',
-      'Page 4': 'page_four',
+      Mercury: 'page_one',
+      Mars: 'page_two',
+      Jupiter: 'page_three',
+      Uranus: 'page_four',
     },
   },
 };

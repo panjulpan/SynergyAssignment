@@ -4,26 +4,37 @@ import {
   View,
   SafeAreaView,
   TouchableOpacity,
+  ImageBackground,
 } from 'react-native';
 import React from 'react';
 
-const PageFourScreen = ({navigation}) => {
+const PageOneScreen = ({navigation}) => {
   return (
     <SafeAreaView style={styles.container}>
-      <View style={styles.contentContainer}>
-        <Text style={styles.mainText}>This is the Fourth Page</Text>
-        <TouchableOpacity onPress={() => navigation.navigate('Home')}>
-          <Text style={styles.buttonText}>Go the Home Page</Text>
-        </TouchableOpacity>
-      </View>
+      <ImageBackground
+        source={require('../../assets/images/uranus.jpeg')}
+        resizeMode="cover"
+        style={styles.imageBackground}>
+        <View style={styles.contentContainer}>
+          <Text style={styles.mainText}>You are in a Uranus Planet</Text>
+          <TouchableOpacity
+            onPress={() => navigation.navigate('Home')}
+            style={styles.button}>
+            <Text style={styles.buttonText}>Go the Milky Way</Text>
+          </TouchableOpacity>
+        </View>
+      </ImageBackground>
     </SafeAreaView>
   );
 };
 
-export default PageFourScreen;
+export default PageOneScreen;
 
 const styles = StyleSheet.create({
   container: {
+    flex: 1,
+  },
+  imageBackground: {
     flex: 1,
     justifyContent: 'center',
   },
@@ -34,6 +45,13 @@ const styles = StyleSheet.create({
   mainText: {
     fontSize: 18,
     marginBottom: 10,
+    fontWeight: '600',
+    color: 'white',
+  },
+  button: {
+    backgroundColor: '#FFFFFF',
+    padding: 10,
+    borderRadius: 10,
   },
   buttonText: {
     color: '#3366CC',
